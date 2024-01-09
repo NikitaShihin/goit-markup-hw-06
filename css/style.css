@@ -249,11 +249,19 @@ img {
 
 .address-link {
   color: #434455;
-  line-height: 1.5;
+  line-height: 24px;
   letter-spacing: 0.02em;
   text-decoration: none;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
+
+@media only screen and (min-width:768px) {
+  .address-link {line-height: 16px;
+    
+  }
 }
 
 .address-link:hover,
@@ -277,7 +285,6 @@ img {
 
    background: #2e2f42;
   
-  padding: 188px 0;
   margin: 0 auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -483,7 +490,7 @@ img {
   margin-bottom: 8px;
 }
 
-@media screen and (max-width: 1158px) {
+@media screen and (max-width: 1157px) {
   .benefits-wrapper {
     display: none;
   }
